@@ -1229,12 +1229,13 @@ background: linear-gradient(
     gap: 12px;
     min-width: 0;
     overflow: hidden;
-    border: 5px solid goldenrod;
 
 }
 
 .bb-about-small-images img {
     min-height: 0;
+        border: 5px solid goldenrod;
+
     border-radius: 5px;
 }
 
