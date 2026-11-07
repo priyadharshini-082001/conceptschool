@@ -493,7 +493,7 @@ textarea.form-control {
 
 /* Pulsing Logo */
 .preloader-logo {
-  height: 100px;
+  height:60px;
   position: relative;
   z-index: 2;
   animation: pulseLogo 2s ease-in-out infinite;
@@ -502,7 +502,7 @@ textarea.form-control {
 /* Dual Spinning Rings */
 .spinner-ring {
   position: absolute;
-  width: 350px;
+  width:350px;
   height: 350px;
   border-radius: 50%;
   border: 3px solid transparent;
