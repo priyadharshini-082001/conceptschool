@@ -79,48 +79,6 @@
 }
 
 
-/* =========================================================
-   04. PREMIUM GREEN + GOLD OVERLAY
-========================================================= */
-
-.bb-hero-image-wrap::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-    pointer-events: none;
-
-    background:
-        linear-gradient(
-            90deg,
-            rgba(12, 31, 22, 0.72) 0%,
-            rgba(18, 39, 28, 0.48) 32%,
-            rgba(18, 39, 28, 0.18) 68%,
-            rgba(12, 25, 19, 0.42) 100%
-        ),
-        linear-gradient(
-            0deg,
-            rgba(10, 23, 16, 0.45) 0%,
-            transparent 35%,
-            transparent 75%,
-            rgba(10, 23, 16, 0.12) 100%
-        );
-}
-
-.bb-hero-image-wrap::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 3;
-    pointer-events: none;
-
-    background: linear-gradient(
-        115deg,
-        transparent 55%,
-        rgba(205, 165, 83, 0.08) 100%
-    );
-}
-
 
 /* =========================================================
    05. RIGHT SOCIAL MEDIA BAR
@@ -1542,7 +1500,7 @@ background: linear-gradient(
     inset: 0;
     background: linear-gradient(
         to top,
-        rgba(20, 38, 25, 0.82),
+        rgba(20, 38, 25, 0.534),
         rgba(20, 38, 25, 0.08) 45%,
         transparent 70%
     );
@@ -1606,30 +1564,39 @@ background: linear-gradient(
     pointer-events: none;
 }
 
-
-/* =========================================================
-   VIDEO PLAYBACK CONTROLS
-========================================================= */
+/* VIDEO PLAYBACK CONTROLS */
 
 .bb-events-video {
     cursor: pointer;
 }
 
-/* Chrome, Edge and Safari controls */
-
+/* Keep controls visible */
 .bb-events-video::-webkit-media-controls {
-    opacity: 1;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
+/* Controls background */
 .bb-events-video::-webkit-media-controls-panel {
+    opacity: 1 !important;
     background: linear-gradient(
         to top,
-        rgba(0, 0, 0, 0.479),
+        rgba(0, 0, 0, 0.75),
         rgba(0, 0, 0, 0.05)
-    );
+    ) !important;
 }
 
+/* Volume button */
+.bb-events-video::-webkit-media-controls-mute-button {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
 
+/* Volume slider */
+.bb-events-video::-webkit-media-controls-volume-slider {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
 /* =========================================================
    TABLET RESPONSIVE
 ========================================================= */

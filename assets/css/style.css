@@ -2706,7 +2706,7 @@ background: linear-gradient(
 }
 
 .panel-text p {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.55;
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 5px;
@@ -2783,15 +2783,15 @@ background: linear-gradient(
     }
 
     .panel-text h3 {
-        font-size: 21px;
+        font-size: 16px;
     }
 
     .panel-text p {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .panel-pill {
-        font-size: 9px;
+        font-size: 13px;
         padding: 4px 7px;
     }
 
@@ -2828,7 +2828,7 @@ background: linear-gradient(
     }
 
     .dest-badge-item {
-        font-size: 11px;
+        font-size: 15px;
         padding: 7px 12px;
     }
 
@@ -2874,7 +2874,7 @@ background: linear-gradient(
         opacity: 1;
         visibility: visible;
         transform: none;
-        font-size: 10px;
+        font-size: 13px;
         padding: 5px 10px;
     }
 
@@ -2885,7 +2885,7 @@ background: linear-gradient(
         left: auto;
         right: 13px;
         transform: none;
-        font-size: 10px;
+        font-size: 13px;
         padding: 5px 9px;
     }
 
@@ -2939,24 +2939,24 @@ background: linear-gradient(
     }
 
     .panel-pill {
-        font-size: 9px;
+        font-size: 13px;
         padding: 4px 7px;
     }
 
     .panel-text h3 {
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 5px;
     }
 
     .panel-text p {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 1.5;
     }
 
     .panel-cta-btn {
         margin-top: 7px !important;
         padding: 7px 15px !important;
-        font-size: 11px;
+        font-size: 13px;
     }
 
 }
@@ -3001,7 +3001,7 @@ background: linear-gradient(
     }
 
     .dest-badge-item {
-        font-size: 10.5px;
+        font-size: 13px;
         padding: 7px 10px;
         box-shadow: none;
     }
@@ -3050,7 +3050,7 @@ background: linear-gradient(
         top: 11px;
         left: 11px;
         padding: 5px 9px;
-        font-size: 9px;
+        font-size: 15px;
         opacity: 1;
         visibility: visible;
         transform: none;
@@ -3065,7 +3065,7 @@ background: linear-gradient(
         left: auto;
         transform: none;
         padding: 5px 8px;
-        font-size: 9px;
+        font-size: 13px;
         box-shadow: none;
     }
 
@@ -3089,7 +3089,7 @@ background: linear-gradient(
         width: 36px;
         height: 36px;
         min-width: 36px;
-        font-size: 15px;
+        font-size: 13px;
         margin: 0;
         transform: none;
         animation: none;
@@ -3125,25 +3125,25 @@ background: linear-gradient(
     }
 
     .panel-pill {
-        font-size: 8.5px;
+        font-size: 13px;
         line-height: 1.3;
         padding: 4px 6px;
         white-space: normal;
     }
 
     .panel-pill i {
-        font-size: 8px;
+        font-size: 15px;
         margin-right: 3px !important;
     }
 
     .panel-text h3 {
-        font-size: 17px;
+        font-size: 16px;
         line-height: 1.25;
         margin-bottom: 5px;
     }
 
     .panel-text p {
-        font-size: 11.5px;
+        font-size: 13px;
         line-height: 1.5;
         margin-bottom: 4px;
     }
@@ -3151,7 +3151,7 @@ background: linear-gradient(
     .panel-cta-btn {
         margin-top: 7px !important;
         padding: 7px 13px !important;
-        font-size: 10px;
+        font-size: 13px;
         box-shadow: none;
     }
 
@@ -3192,7 +3192,7 @@ background: linear-gradient(
     }
 
     .dest-badge-item {
-        font-size: 9.5px;
+        font-size: 15px;
         padding: 6px 8px;
     }
 
@@ -3228,16 +3228,16 @@ background: linear-gradient(
     }
 
     .panel-text p {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .panel-pill {
-        font-size: 8px;
+        font-size: 13px;
         padding: 3px 5px;
     }
 
     .panel-cta-btn {
-        font-size: 9.5px;
+        font-size: 13px;
         padding: 6px 11px !important;
     }
 
@@ -3263,7 +3263,7 @@ background: linear-gradient(
     }
 
     .dest-badge-item {
-        font-size: 9px;
+        font-size: 13px;
         padding: 5px 7px;
     }
 
@@ -3285,24 +3285,24 @@ background: linear-gradient(
         width: 29px;
         height: 29px;
         min-width: 29px;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .panel-text h3 {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .panel-text p {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .panel-pill {
-        font-size: 7.5px;
+        font-size: 13px;
         padding: 3px 5px;
     }
 
     .panel-cta-btn {
-        font-size: 9px;
+        font-size: 13px;
         padding: 6px 10px !important;
     }
 
